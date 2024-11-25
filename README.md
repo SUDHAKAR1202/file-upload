@@ -2,7 +2,7 @@ Github backend URL:
 https://github.com/SUDHAKAR1202/file-upload-server-side
 
 Deployed frontend URL:
-https://vercel.com/sudhakars-projects-cc730d52/file-upload-client-side
+https://file-upload-client-side.vercel.app/
 
 Deployed backend URL:
 
