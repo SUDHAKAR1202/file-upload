@@ -14,7 +14,7 @@ function App() {
     formData.append('file', file);
 
     try {
-      const res = await axios.post('https://multer-server-side-1xvr.vercel.app/upload', formData, {
+      const res = await axios.post('https://multer-server-side-yn7u.vercel.app/upload', formData, {
         headers: { 'Content-Type': 'multipart/form-data' },
       });
       console.log(res.data);
@@ -25,7 +25,7 @@ function App() {
   }
 
   const fetchMetadata = async () => {
-    const res = await axios.get('https://multer-server-side-1xvr.vercel.app/files');
+    const res = await axios.get('https://multer-server-side-yn7u.vercel.app/files');
     setMetadata(res.data);
   }
   return (
